@@ -1,0 +1,121 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#menu {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.menu-content {
+    position: relative;
+    z-index: 1;
+    padding: 2em;
+    max-width: 800px;
+    background: #ffffffb6 ;
+    border-radius: 8px;
+    margin: auto;
+    text-align: center;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2em; 
+}
+
+.menu-item img {
+    max-width: 150px; 
+    height: auto;
+    margin-right: 1em;
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    margin: 0;
+}
+
+.menu-item p {
+    margin: 0.5em 0;
+    color: blue;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Background images for each page */
+body.home {
+    background-image: url('https://www.restaurantinteriordesign.eu/wp-content/uploads/2024/02/Shchos-na-ethno.png');
+    background-size: cover;
+    background-position: center;
+}
+
+body.starters {
+    background-image: url('https://c.ndtvimg.com/2023-04/skj1eqgo_chicken-tikka_625x300_02_April_23.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=886');
+    background-size: cover;
+    background-position: center;
+}
+
+body.main-courses {
+    background-image: url('https://img.freepik.com/premium-photo/photo-closeup-shot-delicious-food_829042-77.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+body.desserts {
+    background-image: url('https://img.freepik.com/premium-photo/display-chocolates-other-desserts-including-chocolates-other-desserts_927094-240.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+body.drinks {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHDiylbmum4SpcF65v7l8KKxXGa-n616hqKw&s');
+    background-size: cover;
+    background-position: center;
+}
